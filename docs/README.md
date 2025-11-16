@@ -274,6 +274,7 @@ PEERS 2
 
 #### 5. Download a File (Multi-Source)
 Downloads file from multiple peers simultaneously.
+Uses concurrency by dividing the task of downloading into multiple threads.
 
 ```
 Enter choice: 5
